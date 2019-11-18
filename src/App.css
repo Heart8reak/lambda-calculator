@@ -1,5 +1,5 @@
 .container {
-    background-color: #c00025;
+    background-color: #bb1333;
     width: 100%;
     max-width: 550px;
     margin: 0 auto;
@@ -9,9 +9,15 @@
 }
 
 .logo-container {
-    text-align: center;
-    margin: 20px 0;
+    margin: 40px 0 20px 0;
+    display: flex;
+    /* justify-content: left; */
 }
+img {
+    margin-left: 50px;
+
+}
+
 .display {
     margin-top: 25px;
     height: 100px;

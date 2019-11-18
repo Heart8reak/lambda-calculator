@@ -29,8 +29,8 @@ function App() {
         <Display value={displayValue} />
         <div className="btn-contain">
           <div className='left'>
-            <Numbers />
             <Specials />
+            <Numbers />
           </div>
           <div className='right'>
             <Operators />
