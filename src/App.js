@@ -26,15 +26,16 @@ function App() {
       <Logo />
       <div className="App">
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
-        <div className="display">
-          <Display value={displayValue} />
+        <Display value={displayValue} />
+        <div className="btn-contain">
+          <div className='left'>
+            <Numbers />
+            <Specials />
+          </div>
+          <div className='right'>
+            <Operators />
+          </div>
         </div>
-        <div>
-          <Operators />
-          <Numbers />
-          <Specials />
-        </div>
-
 
       </div>
     </div>
