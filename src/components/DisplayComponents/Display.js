@@ -5,7 +5,7 @@ const Display = (props) => {
   console.log("Display", props, props.number)
 
   return <div className="display">{/* Display any props data here */}
-    {props.number}
+    {props.value}
   </div>;
 };
 
